@@ -2,3 +2,11 @@ GET http://localhost:3210 HTTP/1.1
 
 ###
 GET http://localhost:3210/age HTTP/1.1   
+
+
+//render
+###
+GET https://cse341-w1-ahcz.onrender.com HTTP/1.1
+
+###
+GET https://cse341-w1-ahcz.onrender.com/age HTTP/1.1
