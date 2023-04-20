@@ -1,0 +1,19 @@
+{
+  "name": "cse341_w1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "hello world",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "yonghwan311@gmail.com"
+  },
+  "author": "Yong Lee",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
