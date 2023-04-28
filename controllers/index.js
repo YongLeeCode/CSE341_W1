@@ -1,10 +1,22 @@
-const nameFunction = (req, res, next) => {
-    res.json('Yonghwan Lee');
+const firstNameFunction = (req, res, next) => {
+    res.json('Yonghwan');
 };
 
-const ageFunction = (req, res, next) => {
-    res.json('27');
+const lastNameFunction = (req, res, next) => {
+    res.json('Lee');
+};
+
+const emailFunction = (req, res, next) => {
+    res.json('yonghwan311@gmail.com');
+};
+
+const colorFunction = (req, res, next) => {
+    res.json('Green');
+};
+
+const birthdayFunction = (req, res, next) => {
+    res.json('March 11, 1996');
 };
 
 //여러개를 export할 때는 괄호
-module.exports = {nameFunction, ageFunction};
+module.exports = {firstNameFunction, lastNameFunction, emailFunction, colorFunction, birthdayFunction};
